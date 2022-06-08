@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): api.weixin.qq.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential&appid=wx6b11b3efd1cdc290&secret=106a9c6157c4db5f6029918738f9529d HTTP/1.1" 200 92

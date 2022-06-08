@@ -1,0 +1,1 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://api.weixin.qq.com:443 "GET /cgi-bin/token?grant_type=client_credential HTTP/1.1" 200 74

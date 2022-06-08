@@ -1,0 +1,25 @@
+- name: 获取接口的统一鉴权码的token接口
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/token
+    params:
+      grant_type: client_credential
+      appid: wx6b11b3efd1cdc290
+      secret: 106a9c6157c4db5f6029918738f9529d
+  validate: None
+
+- name: token断言
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/token
+    params:
+      grant_type: client_credential
+      appid:
+      secret:
+  validate: None
+
+
+
+
+
+

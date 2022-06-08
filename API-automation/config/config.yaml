@@ -1,0 +1,46 @@
+#项目配置文件 test测试环境 pro线上环境
+env: test
+
+#jenkins账号密码
+Jenkins_name: "admin"
+Jenkins_passwd: "123456"
+
+#项目名称
+project: Esop
+
+#语言 中文/English zh中文/en英文
+language: "zh"
+
+#操作系统 linux Windows
+test_system: linux
+pro_system: linux
+
+
+#拉取代码生成的报告地址
+allure_path: "http://localhost:63342"       #服务器地址
+#allure_path: "xxxxx"       #本地地址
+
+
+#飞书webhook token 更换群时需要更换token 和关键字
+webhook token: https://open.feishu.cn/open-apis/bot/v2/hook/3ec5cf22-c0cb-4346-83fc-e6c9a0e91e20
+#Fly: "xxxxxx"     #测试群
+Fly: "3ec5cf22-c0cb-4346-83fc-e6c9a0e91e20"    #储能开发迭代群
+
+
+#接口api地址
+test_Esop_host: https://hub.realibox.com/api/hub/v1/login/
+pro_Esop_host:
+
+#Jenkins url
+#jenkin_url: http://4xxxx:1ccc/    #本地地址
+jenkin_url: http://127.0.0.1:10240/    #服务器地址
+
+#数据库地址 
+
+test_db_host: 地址
+test_db_port: 端口号
+test_db_name: 名称
+test_db_pass: 密码
+
+
+

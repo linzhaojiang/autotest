@@ -1,0 +1,14 @@
+base64-test0926 ==1.0.0
+PyMySQL==1.0.2
+pytest==6.2.3
+python-jenkins==1.7.0
+PyYAML==5.4.1
+redis==3.5.3
+requests==2.25.1
+SQLAlchemy==1.4.10
+urllib3==1.26.4
+wheel==0.36.2
+xlrd==1.2.0
+allure-pytest==2.8.40
+allure-python-commons==2.8.40
+
